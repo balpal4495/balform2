@@ -1,0 +1,21 @@
+.App {
+  width: 40%;
+  margin: 0px auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.submit-button {
+  background-color: #4ac94a;
+  border: #4ac94a;
+  color: white;
+  box-shadow: 7px 6px 5px -9px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 3.24%;
+  margin-top: 5px;
+  &:hover {
+    background: #2baa2b;
+  }
+}

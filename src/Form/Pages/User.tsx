@@ -1,8 +1,7 @@
 import React from "react";
-
 import { isEmailValid, isPasswordValid } from "../../Shared/utils";
 import { FormData } from "../../Shared/types";
-
+import './User.scss';
 
 type Validation = string | boolean;
 interface Props {

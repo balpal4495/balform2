@@ -1,5 +1,6 @@
 import React from "react";
 import { FormData } from "../../Shared/types";
+import './Privacy.scss';
 interface Props {
   onSubmit: (formData: FormData) => void;
 }

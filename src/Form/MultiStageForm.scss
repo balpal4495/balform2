@@ -1,0 +1,20 @@
+.multistageform {
+  text-align: center;
+}
+
+.multistageform-progress {
+  display: flex;
+  justify-content: center;
+}
+
+.multistageform-progress__heading {
+  background-color: white;
+  flex-basis: 33%;
+  flex-grow: 0;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.multistageform-progress__heading--active {
+  background-color: skyblue;
+}

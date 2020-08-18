@@ -1,4 +1,5 @@
 import React from "react";
+import './Done.scss';
 
 class Done extends React.Component {
   render() {
