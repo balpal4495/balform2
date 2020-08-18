@@ -5,7 +5,7 @@
 This was built with create react app with a typescript flavour.
 Im providing two version of the test
 
-This is the class components version and the one i completed first.
+This is the class components version and the one i completed second.
 
 There is also a Hooks componenets version which is linked here
 
