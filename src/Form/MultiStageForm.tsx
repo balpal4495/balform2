@@ -18,6 +18,8 @@ interface State {
   currentStageIndex: number;
 }
 
+interface Props {}
+
 class StageProgress extends React.Component<ProgressProps> {
   render() {
     const { stages, currentStage } = this.props;
@@ -43,7 +45,7 @@ class StageProgress extends React.Component<ProgressProps> {
 
 const stages: string[] = ["User", "Privacy", "Done"];
 
-class MultiStageForm extends React.Component<State> {
+class MultiStageForm extends React.Component<Props, State> {
   state: State = {
     formData: {},
     currentStageIndex: 0,
